@@ -1,10 +1,16 @@
 <template>
     <div>
         <h1>Log In</h1>
-        <input v-model="login" type="text" name="" id="">user
-        <input v-model="password" type="password">Password
+
+        <div class="firstOne">
+            <p>User</p>
+        <input v-model="login" type="text" name="" id="">
+            <p>Password</p>
+        <input v-model="password" type="password">
         <button @click="logeado">Click</button>
+        </div>
         <br>
+
         <p>{{mensaje}}</p>
     </div>
 </template>
@@ -44,8 +50,28 @@ export default {
 </script>
 
 <style scoped>
-
+h1{
+  margin-bottom: 2rem;  
+}
 div{
     margin-top: 1rem;
+    text-align: center;
+    
+    
+}
+.firstOne{
+width: 20%;
+margin: auto;
+display: flex;
+flex-direction: column;
+border: solid white 0.1rem;
+padding: 1rem;
+
+}
+input{
+    margin: 1rem 0rem;
+}
+button{
+    margin-top: 2rem;
 }
 </style>

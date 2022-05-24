@@ -4,6 +4,7 @@ export default createStore({
   state: {
     naves:[],
     nextOne:null,  
+    img :""
     
   },
   getters: {
@@ -43,10 +44,9 @@ export default createStore({
         const dato2 = await dato1.json();
         commit('muchasNaves', dato2.results);
         commit( 'llenarApi', dato2.next)
-        
-       
       }
-     }    
+     }  
+     ,
   },
   modules: {
   }

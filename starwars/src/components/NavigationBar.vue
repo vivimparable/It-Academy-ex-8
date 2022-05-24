@@ -24,8 +24,15 @@ nav a{
 }
 
 nav{
-      border-bottom: rgb(255, 255, 255) solid 0.1rem ;
-      border-top:rgb(255, 255, 255) solid 0.1rem ;
+      border-bottom: rgb(255, 255, 255,0.5) solid 0.1rem ;
+      border-top:rgb(255, 255, 255,0.5) solid 0.1rem ;
         margin-top: 2rem;
+        text-align: center;
+        padding: 0.5rem;
+        
 }
+nav a{
+    padding: 0.5rem;
+}
+
 </style>

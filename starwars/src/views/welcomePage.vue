@@ -3,7 +3,7 @@
         <h1>Welcome page to Star wars directory</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat fuga nihil error exercitationem a incidunt velit praesentium odit nemo quae, pariatur quis reiciendis placeat doloribus saepe aspernatur eaque, eum ipsa!</p>
         <div class="mas-click">
-        <router-link  to="/home">Clicka para tenere naves!</router-link>
+        <router-link   to="/home">Clicka para tenere naves!</router-link>
     </div>
     </div>
 </template>
@@ -16,10 +16,13 @@
 div{
     margin-top: 4rem;
 }
-
+h1{
+    margin-bottom: 2rem;
+}
 
 *{
     background-color: none;
+    line-height: 2rem;
 }
 
 .mas-click {
@@ -37,7 +40,8 @@ div{
 .mas-click a:hover{
     background-color: white;
     color: black;
-    
     transition: 0.3s;
 }
+
+
 </style>
